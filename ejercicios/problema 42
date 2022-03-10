@@ -1,0 +1,23 @@
+#42
+import random
+dado1=random.randint(1,6)
+dado2=random.randint(1,6)
+print("dado 1: " + str(dado1) + "  dado 2: " + str (dado2))
+suma= str(dado1+dado2%2)
+print(suma)
+print("")
+resultado= int(input("si te toco par pon 1 si fue impar pon 2:  "))
+if resultado==1:
+    print("par")
+    print("")
+    print("Elige un numero del 1 al 9: ")
+    suerte= int(input("elige un numero de eleccion: "))
+    if suerte==1 or suerte==3 or suerte==5 or suerte==7 or suerte==9:
+        print("")
+        print("PERDISTE")
+    elif suerte==2 or suerte==4 or suerte==6 or suerte==8:
+            print("")
+            print("Ganaste el 18% * tu apuesta")
+else:
+    print("")
+    print("impar PERDISTE ")
