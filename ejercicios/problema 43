@@ -1,0 +1,7 @@
+#43
+p=0.5
+n=365*15
+q=0.5
+
+resultado=n*p*q
+print("la probabilidad de que un dia sea mayor a 105 sera el dia numero: ",resultado)
