@@ -1,0 +1,6 @@
+#35
+print('Num. probabilidad')
+p = 0.5
+for i in range(23):
+    p = p * (365 - i) / 365
+    print(f'{i}: {(1-p):.3f}')
