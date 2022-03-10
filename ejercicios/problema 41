@@ -1,0 +1,39 @@
+#41
+print("probabilidad de cartas")
+#cartaspro=2,598,960
+#flor=4
+#corricolor=1024
+#cuatromiclase=2,808
+#corrida=9,216
+#trio=52
+#par=78
+
+flor=float (input("ingresa la probabildiad de la flor imperial  "))
+probacartas = float(2598960)
+resultadofinalflor=flor/probacartas
+##
+flor=float (input("ingresa la probabildiad de la corrida de color  "))
+probacartas = float(2598960)
+resultadofinalcorrida=flor/probacartas
+###
+flor=float (input("ingresa la probabildiad de 4 mismo color  "))
+probacartas = float(44)
+resultadofinalcuatro=flor*probacartas
+###
+flor=float (input("ingresa la probabildiad de la corrida  "))
+probacartas = float(2598960)
+resultadofinalcorridass=flor/probacartas
+###
+flor=float (input("ingresa la probabildiad de trios  "))
+probacartas = float(1056)
+resultadofinaltrios=flor*probacartas
+##
+flor=float (input("ingresa la probabildiad de pares  "))
+probacartas = float(14080)
+resultadofinalpares=flor*probacartas
+print("la probabilidad de una flor imperial es: ", resultadofinalflor)
+print("la probabilidad de una corrida de color es: ", resultadofinalcorrida)
+print("la probabilidad de 4 mismo color es: ", resultadofinalcuatro)
+print("la probabilidad de una corrida es: ", resultadofinalcorridass)
+print("la probabilidad de una corrida es: ", resultadofinaltrios)
+print("la probabilidad de una corrida es: ", resultadofinalpares)
