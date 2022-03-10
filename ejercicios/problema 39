@@ -1,0 +1,6 @@
+# problemas 39
+print ("pirinola")
+unjiro = 0.333333333
+resul= 1000 * unjiro
+print("teoria a mill es:",resul)
+#si se hacerca ala probabilidad teorica pero a gran escala seria un 1/3
