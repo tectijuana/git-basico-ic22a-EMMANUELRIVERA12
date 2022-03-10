@@ -1,0 +1,19 @@
+#34
+s=0
+j=0
+n=20
+p=1
+q=1.0-p
+
+while (j<10000):
+    i=0
+    ne=0
+    while(i<20):
+        r=20000
+        if (r<q):
+            ne=ne+1
+        i=i+1
+    if (ne==5):
+        s=s+1
+    j=j+1
+print("que una manzana no reciva es: " + str(float(s)/10000))
